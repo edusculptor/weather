@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API project</title>
+   <style>
+    .card{
+        height: 300px;
+        width: 250px;
+        background-color: lightgreen;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+   </style>
+  </head>
+  <body>
+<div class="card">
+  <li>Nagpur Temp in C:</li>  <li id="temp_c"></li><br>
+   <li>Nagpur Temp in F:</li> <li id="temp_f"></li><br>
+  <li>Nagpur Wind Speed:</li>  <li id="wind_kph"></li><br>
+    <li>Nagpur Wind Direction:</li> <li id="wind_dir"></li><br>
+</div>
+   
+  
+<button onclick=getData()>Get Nagpur weather</button>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
